@@ -26,7 +26,6 @@ jobs:
           :backtrace: false
           :bulk_threshold: 1000
           :sources:
-          - https://rubygems.org/
           - https://token:${{ secrets.GITHUB_TOKEN }}@rubygems.pkg.github.com/github-packages-examples/
           :update_sources: true
           :verbose: true  
